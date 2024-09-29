@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import numpy as np
 import traversal_algos
-
+import os
 
 app = Flask(__name__)
 CORS(app)  # CORS is needed for cross origin. (different ports)
@@ -42,6 +42,6 @@ def visualize_algorithm():
     return jsonify({'error': 'Please select an algorithm'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,Port = int(os.environ.get('PORT', 5000)))
 
 
