@@ -128,8 +128,14 @@ function App() {
         </div>
       </div>
 
-      <div className="Intro">
-        <p>This is a project to help visualize the basic stuff for graphs. Enjoy :)</p>
+      <div className="Introduction">
+        <p>This a project to help you visualize the basic ideas for Graphs. Enjoy :)</p>
+      </div>
+
+      <div className="Pseudocode">
+        <h3>Instructions</h3>
+        <p>Click on a cell to cycle through colours black, green, and yellow </p>
+        {selectedAlgorithm ? <p>{getPseudocode(selectedAlgorithm)}</p> : <p>Select an algorithm to see the instructions</p>}
       </div>
 
       <div className="algorithm-selection">
@@ -160,11 +166,6 @@ function App() {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="Pseudocode">
-        <h3>Instructions</h3>
-        {selectedAlgorithm ? <p>{getPseudocode(selectedAlgorithm)}</p> : <p>Select an algorithm to see the instructions</p>}
       </div>
 
       <div className="controls">
