@@ -70,7 +70,7 @@ function App() {
     });
 
     try {
-      const response = await fetch('http://localhost:5000/visualize', {
+      const response = await fetch('https://graph-visualizer-one.vercel.app/visualize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
