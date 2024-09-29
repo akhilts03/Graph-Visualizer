@@ -129,7 +129,7 @@ function App() {
       </div>
 
       <div className="Introduction">
-        <p>This a project to help you visualize the basic ideas for Graphs. Enjoy :)</p>
+        <p>This a project to help you visualize the basic ideas for Graphs. Enjoy :) - Akhil</p>
       </div>
 
       <div className="Pseudocode">
