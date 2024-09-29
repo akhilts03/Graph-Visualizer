@@ -42,6 +42,6 @@ def visualize_algorithm():
     return jsonify({'error': 'Please select an algorithm'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True)
 
 
