@@ -139,7 +139,6 @@ function App() {
       </div>
 
       <div className="algorithm-selection">
-        <p>Choose an algorithm</p>
         {algorithms.map((algo, index) => (
           <button
             key={algo}
