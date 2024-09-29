@@ -33,7 +33,7 @@ body {
 }
 
 .links a:hover {
-  text-decoration: underline;
+  color: green;
 }
 
 /* Algorithm Selection */
