@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 CORS(app)  # CORS is needed for cross origin. (different ports)
 
-# Example route handler in Flask
+
 @app.route('/visualize', methods=['POST'])
 def visualize_algorithm():
     data = request.get_json()
@@ -22,7 +22,7 @@ def visualize_algorithm():
     if algorithm == 'Breadth-first-search':
         
         bfs_result = traversal_algos.bfs(grid,startNodes)
-        # Return the result as JSON
+  
         return jsonify({'Order': bfs_result})
     
     
@@ -30,7 +30,6 @@ def visualize_algorithm():
         
         dfs_result = traversal_algos.dfs(grid,startNodes)
 
-        # Return the result as JSON
         return jsonify({'Order': dfs_result})
     
     elif algorithm == 'Flood Fill':
