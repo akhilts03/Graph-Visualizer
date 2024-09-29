@@ -70,7 +70,7 @@ function App() {
     });
 
     try {
-      const response = await fetch('https://graph-visualizer-one.vercel.app/visualize', {
+      const response = await fetch('https://graph-visualizer-server.onrender.com/visualize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
