@@ -123,8 +123,8 @@ function App() {
       <div className="top-bar">
         <div className="title">Algo <text className="text">Visualizer</text></div>
         <div className="links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/akhilts03/Graph-Visualizer" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="www.linkedin.com/in/akhil-thirukonda-sivakumar-851120230" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
 
